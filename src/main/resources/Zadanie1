@@ -1,0 +1,43 @@
+Algorytm Euklidesa
+Mając dane dwie liczby naturalne a i b znaleźć ich największy wspólny dzielnik.
+
+1. Przedstaw opis słowny problemu
+2. Przedstaw schemat blokowy
+3. Zaimplementuj algorytm.
+
+Rozwinięcie:
+2. Pobierz dane od użytkownika.
+3. Jeżeli użytkownik wpisze ujemną liczbę wyświetl błąd.
+4. Pobieraj błędne dane dopóki użytkownik nie wpisze poprawnego wyniku.
+5. Zrób z tego grę:
+   - Komputer losuje dwie duże liczby (10000 < n < 50000)
+   - Użytkownik wpisuje NWD
+   - Komputer oblicza NWD, a następnie wyświetla czy użytkownik zgadł liczbę czy nie
+
+   Zadanie 1#
+
+   1. Tworzymy 2 zmienne a i b, (15, 5) Dzielimy
+   15/2 i sprawdzamy czy bez reszty
+   15/3 sprawdzamy czy bez reszty
+   udalo podzielic bez reszty, wynik dzielimy przez 3
+
+   5/2 nie wykonujemy bo 15/2 da nam reszte
+   5/3 sprawdzamy czy bez reszty
+   5/4 sprawdzamy czy bez reszty
+   5/5 sprawszamy czy bez reszty // podzielilo bez reszty
+   tutaj konczymy na 5;
+   15/5 jesli bez reszty ==NWD
+
+   Pobieramy pierwszza liczbe i trzymamy ja jako tymczasowa.
+   Dopoki nie uda sie podzielic bez reszty, to dziel z reszta
+   Jezeli uda sie podzielic liczbe bez reszty przejdz do kolejnej liczby
+   mamy liczbe 5 i trzymamy ja w zmienej tymczasowej
+   dopoki nie uda sie podzielic bez reszty to dziel z reszta
+   jezeli uda sie podzielic bez reszty przejdz do kolejnej liczby
+
+   Sprawdzamy kiedzy dzielnik jest rowny liczbie
+   Jezeli jest rowny liczbie sprawdzamy czy da sie podzielic pierwsza liczbe przez dzielnik
+
+
+
+   2.
